@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/devel
+
+Name: polled_camera
+Description: Description of polled_camera
+Version: 1.11.5
+Cflags: -I/home/monica/panda_work/devel/include -I/home/monica/panda_work/src/Image_folder/image_common/polled_camera/include
+Libs: -L/home/monica/panda_work/devel/lib -lpolled_camera
+Requires: roscpp sensor_msgs

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "minnow_throttler")
+set(minnow_throttler_MAINTAINER "monica <monica@todo.todo>")
+set(minnow_throttler_DEPRECATED "")
+set(minnow_throttler_VERSION "0.0.0")
+set(minnow_throttler_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(minnow_throttler_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(minnow_throttler_BUILDTOOL_DEPENDS "catkin")

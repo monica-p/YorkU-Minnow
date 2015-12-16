@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "throttler")
+set(throttler_MAINTAINER "vgrlab <vgrlab@todo.todo>")
+set(throttler_DEPRECATED "")
+set(throttler_VERSION "0.0.0")
+set(throttler_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(throttler_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(throttler_BUILDTOOL_DEPENDS "catkin")

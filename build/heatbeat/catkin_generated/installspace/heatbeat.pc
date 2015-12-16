@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: heatbeat
+Description: Description of heatbeat
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monica/panda_work/install/lib 
+Requires: 

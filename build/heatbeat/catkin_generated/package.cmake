@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "heatbeat")
+set(heatbeat_MAINTAINER "vgrlab <vgrlab@todo.todo>")
+set(heatbeat_DEPRECATED "")
+set(heatbeat_VERSION "0.0.0")
+set(heatbeat_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(heatbeat_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(heatbeat_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "testing_pkg")
+set(testing_pkg_MAINTAINER "vgrlab <vgrlab@todo.todo>")
+set(testing_pkg_DEPRECATED "")
+set(testing_pkg_VERSION "0.0.0")
+set(testing_pkg_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(testing_pkg_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(testing_pkg_BUILDTOOL_DEPENDS "catkin")

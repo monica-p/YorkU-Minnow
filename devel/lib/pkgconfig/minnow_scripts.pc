@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/devel
+
+Name: minnow_scripts
+Description: Description of minnow_scripts
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/monica/panda_work/devel/lib 
+Requires: 

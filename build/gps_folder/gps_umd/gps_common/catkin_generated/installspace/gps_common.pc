@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: gps_common
+Description: Description of gps_common
+Version: 0.1.7
+Cflags: -I/home/monica/panda_work/install/include
+Libs: -L/home/monica/panda_work/install/lib 
+Requires: message_runtime

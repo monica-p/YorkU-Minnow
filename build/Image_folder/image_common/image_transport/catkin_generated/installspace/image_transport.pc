@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: image_transport
+Description: Description of image_transport
+Version: 1.11.5
+Cflags: -I/home/monica/panda_work/install/include
+Libs: -L/home/monica/panda_work/install/lib -limage_transport
+Requires: message_filters pluginlib rosconsole roscpp roslib sensor_msgs

@@ -1,0 +1,2 @@
+set(trajectory_msgs_MESSAGE_FILES "/home/monica/panda_work/src/common_msgs/trajectory_msgs/msg/JointTrajectory.msg;/home/monica/panda_work/src/common_msgs/trajectory_msgs/msg/JointTrajectoryPoint.msg;/home/monica/panda_work/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg;/home/monica/panda_work/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg")
+set(trajectory_msgs_SERVICE_FILES "")

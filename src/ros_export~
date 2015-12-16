@@ -1,0 +1,11 @@
+// For fleet network
+
+export ROS_MASTER_URI=http://fleet-minnow:11311
+export ROS_HOSTNAME=fleet-monica
+export ROS_IP=fleet-minnow
+
+// For Scout network
+export ROS_MASTER_URI=http://scout-minnow:11311
+export ROS_HOSTNAME=scout-monica
+export ROS_IP=scout-minnow
+

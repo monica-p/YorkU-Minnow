@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: rosserial_arduino
+Description: Description of rosserial_arduino
+Version: 0.5.6
+Cflags: -I/home/monica/panda_work/install/include
+Libs: -L/home/monica/panda_work/install/lib 
+Requires: message_runtime

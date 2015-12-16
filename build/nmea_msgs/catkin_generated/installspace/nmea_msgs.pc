@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: nmea_msgs
+Description: Description of nmea_msgs
+Version: 1.0.0
+Cflags: -I/home/monica/panda_work/install/include
+Libs: -L/home/monica/panda_work/install/lib 
+Requires: std_msgs message_runtime

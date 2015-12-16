@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "minnow")
+set(minnow_MAINTAINER "vgrlab <vgrlab@todo.todo>")
+set(minnow_DEPRECATED "")
+set(minnow_VERSION "0.0.0")
+set(minnow_BUILD_DEPENDS "message_generation" "roscpp" "rospy" "std_msgs")
+set(minnow_RUN_DEPENDS "message_runtime" "roscpp" "rospy" "std_msgs")
+set(minnow_BUILDTOOL_DEPENDS "catkin")

@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/devel
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.3
+Cflags: -I/home/monica/panda_work/src/Image_folder/usb_cam/include
+Libs: -L/home/monica/panda_work/devel/lib -lusb_cam
+Requires: 

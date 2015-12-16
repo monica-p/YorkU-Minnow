@@ -1,0 +1,63 @@
+"""
+Script description:
+	Runs on robot and check if robot is still connected to the base.
+
+	publisher -->
+
+	subscriber -->
+"""
+
+
+import rospy
+from std_msgs.msg import Float32
+from std_msgs.msg import String
+from minnow.msg import Boat
+
+GUARD = 0
+HEARTBEAT_TOGGLE = 0
+
+def statusCallback():
+	global HEARTBEAT_TOGGLE, GUARD
+
+	if (HEARTBEAT_TOGGLE > -200 and HEARTBEAT_TOGGLE < 400 and GUARD == 0):
+		HEARTBEAT_TOGGLE -= 1
+		print "Safe and counter is %s"%HEARTBEAT_TOGGLE
+	elif ((HEARTBEAT_TOGGLE < -200 or HEARTBEAT_TOGGLE > 400) and GUARD == 0):
+		GUARD = 1
+		rospy.set_param("heartbeat_lost", True)
+	else:
+		print "In reset Mode cant change speed"
+		GUARD = 1
+		rospy.set_param("heartbeat_lost", True)
+	
+def heartbeatCallback():
+	global HEARTBEAT_TOGGLE
+	
+	if GUARD == 0:
+		HEARTBEAT_TOGGLE += 1
+
+
+def resetCallback():
+	global 	HEARTBEAT_TOGGLE, GUARD
+	
+	HEARTBEAT_TOGGLE = 0
+	GUARD = 0
+	rospy.set_param("heartbeat_lost", False)
+
+
+if __name__ == '__main__':
+	rospy.init_node('heartbeat_minnow')
+	
+	#-----ROS parameters -----------------
+	rospy.set_param("heartbeat_lost", False)
+	
+	# --- Publishers ----------------------
+	throttle_pub = rospy.Publisher("setThrottle", Float32)
+
+	#---- Subscribers -------------------------------------
+	rospy.Subscriber('vesselStatus', Boat, statusCallback)
+	rospy.Subscriber('heartBeat', String, heartbeatCallback)
+	rospy.Subscriber('resetSystem', String, resetCallback)
+
+	rospy.spin()
+	

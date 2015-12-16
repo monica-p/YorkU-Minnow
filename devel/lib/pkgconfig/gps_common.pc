@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/devel
+
+Name: gps_common
+Description: Description of gps_common
+Version: 0.1.7
+Cflags: -I/home/monica/panda_work/devel/include -I/home/monica/panda_work/src/gps_folder/gps_umd/gps_common/include
+Libs: -L/home/monica/panda_work/devel/lib 
+Requires: message_runtime

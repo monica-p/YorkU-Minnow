@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "nmea_msgs")
+set(nmea_msgs_MAINTAINER "Eric Perko <eric@ericperko.com>")
+set(nmea_msgs_DEPRECATED "")
+set(nmea_msgs_VERSION "1.0.0")
+set(nmea_msgs_BUILD_DEPENDS "std_msgs" "message_generation")
+set(nmea_msgs_RUN_DEPENDS "std_msgs" "message_runtime")
+set(nmea_msgs_BUILDTOOL_DEPENDS "catkin")

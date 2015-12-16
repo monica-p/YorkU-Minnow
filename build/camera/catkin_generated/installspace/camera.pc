@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/install
+
+Name: camera
+Description: Description of camera
+Version: 0.0.0
+Cflags: -I/home/monica/panda_work/install/include
+Libs: -L/home/monica/panda_work/install/lib -lcamera
+Requires: roscpp rospy std_msgs

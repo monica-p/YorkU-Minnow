@@ -1,0 +1,8 @@
+prefix=/home/monica/panda_work/devel
+
+Name: trajectory_msgs
+Description: Description of trajectory_msgs
+Version: 1.12.3
+Cflags: -I/home/monica/panda_work/devel/include
+Libs: -L/home/monica/panda_work/devel/lib 
+Requires: message_runtime std_msgs geometry_msgs

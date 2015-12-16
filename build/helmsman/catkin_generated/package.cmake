@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "helmsman")
+set(helmsman_MAINTAINER "vgrlab <vgrlab@todo.todo>")
+set(helmsman_DEPRECATED "")
+set(helmsman_VERSION "0.0.0")
+set(helmsman_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(helmsman_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(helmsman_BUILDTOOL_DEPENDS "catkin")
